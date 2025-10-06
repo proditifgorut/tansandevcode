@@ -42,7 +42,7 @@ const Contact = () => {
                     <Send size={20} />
                     Kirim Pesan
                 </button>
-                 <a href="#" className="flex-1 flex items-center justify-center gap-2 px-6 py-3 font-semibold text-white bg-green-500 rounded-md hover:bg-green-600 transition-colors">
+                 <a href="https://wa.me/6283119226089" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center gap-2 px-6 py-3 font-semibold text-white bg-green-500 rounded-md hover:bg-green-600 transition-colors">
                     <MessageCircle size={20} />
                     Chat via WhatsApp
                 </a>
