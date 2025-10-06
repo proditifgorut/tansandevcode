@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 transition-colors duration-300;
+  }
+  section {
+    @apply py-16 md:py-24;
+  }
+}
